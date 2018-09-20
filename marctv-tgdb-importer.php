@@ -574,7 +574,7 @@ class MarcTVTGDBImporter
         $tgdb_link = '';
 
         if ($tgdbid != 0) {
-            $tgdb_link = '<a href="' . $this->apiURL . ' . GetGame.php?id=' . $tgdbid . '">G:' . $tgdbid . '</a> ';
+            $tgdb_link = '<a href="' . $this->apiURL . 'GetGame.php?id=' . $tgdbid . '">G:' . $tgdbid . '</a> ';
         }
 
         if ($wpid != 0) {
